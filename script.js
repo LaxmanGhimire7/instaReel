@@ -19,7 +19,7 @@ const reelsData = [
         shareCount: 65,
         isFollowed: false,
         caption: "Sunsets hit differently when you're far from home 🌅",
-        video: "https://player.vimeo.com/external/403787754.sd.mp4?s=751ee292a7d12075b1219777084ff57ac4fe8f6a&profile_id=139&oauth2_token_id=57447761",
+        video: "./videos/parrotMeme.mp4",
         userprofile: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=930&auto=format&fit=crop"
     },
 
@@ -31,7 +31,7 @@ const reelsData = [
         shareCount: 144,
         isFollowed: false,
         caption: "No excuses. Only results. 💪",
-        video: "https://player.vimeo.com/external/389953115.sd.mp4?s=086abca33ccce1ce01a01694d94be87cb528b04f&profile_id=139&oauth2_token_id=57447761",
+        video: "./videos/tailwinder.mp4",
         userprofile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=930&auto=format&fit=crop"
     },
 

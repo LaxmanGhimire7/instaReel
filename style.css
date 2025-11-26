@@ -8,9 +8,8 @@
 html,
 body {
   height: 100%;
-  width: 100%;     
+  width: 100%;
   background-color: black;
-
 }
 
 main {
@@ -18,7 +17,6 @@ main {
   width: 100%;
   padding: 20px;
   color: white;
-  
 }
 
 section {
@@ -31,7 +29,14 @@ section {
 .all-reels {
   height: 100%;
   width: 100%;
-border-radius: 15px;
+  border-radius: 15px;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.all-reels::-webkit-scrollbar {
+  display: none;
 }
 
 .all-reels .reel {
@@ -40,6 +45,8 @@ border-radius: 15px;
   position: relative;
   border-radius: 20px;
   margin-top: 20px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .reel video {
