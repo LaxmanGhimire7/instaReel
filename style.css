@@ -29,7 +29,6 @@ section {
 .all-reels {
   height: 100%;
   width: 100%;
-  border-radius: 15px;
   overflow: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -44,6 +43,7 @@ section {
   width: 100%;
   position: relative;
   border-radius: 20px;
+  overflow: hidden;
   margin-top: 20px;
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -96,17 +96,18 @@ section {
 .bottom > h3 {
   font-weight: 500;
   font-size: 15px;
+  width: 290px;
 }
 
 .right {
   position: absolute;
   right: 0;
   bottom: 0px;
-  transform: translateX(100%);
-  padding: 20px;
+  /* transform: translateX(100%); */
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
   text-align: center;
   align-items: center;
 }
